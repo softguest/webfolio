@@ -91,9 +91,9 @@ const Contact = () => {
               <AnimatedSection delay={0.2}>
                 <div className="space-y-6">
                   {[
-                    { icon: Mail, title: "Email", detail: "hello@nexatech.com" },
-                    { icon: Phone, title: "Phone", detail: "+1 (555) 123-4567" },
-                    { icon: MapPin, title: "Office", detail: "123 Innovation Drive\nSan Francisco, CA 94105" },
+                    { icon: Mail, title: "Email", detail: "subjectspot@gmail.com" },
+                    { icon: Phone, title: "Phone", detail: "+237 6 73 58 99 99" },
+                    { icon: MapPin, title: "Office", detail: "Up station Bamenda" },
                   ].map((c) => (
                     <div key={c.title} className="glass rounded-2xl p-6 flex items-start gap-4">
                       <div className="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">

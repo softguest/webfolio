@@ -49,10 +49,10 @@ const Navbar = () => {
     >
       <div className="container mx-auto flex items-center justify-between h-20 px-6">
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center font-heading font-bold text-primary-foreground text-lg">
-            N
+          <div className="w-8 h-8 rounded-lg bg-blue-500 flex items-center justify-center font-heading font-extrabold text-primary-foreground text-lg">
+            S
           </div>
-          <span className="font-heading font-bold text-xl text-foreground">NexaTech</span>
+          <span className="font-heading font-bold text-xl text-foreground">SubjectSpot</span>
         </Link>
 
         {/* Desktop Nav */}

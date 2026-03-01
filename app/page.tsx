@@ -50,9 +50,9 @@ const HomePage = () => {
           >
             <p className="text-primary font-semibold text-sm tracking-widest uppercase mb-6">Innovation • Technology • Results</p>
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-heading font-bold text-foreground leading-[1.05] text-balance">
-              Building the
-              <span className="gradient-text"> Future with </span>
-              Hard & Soft Tech.
+              Engineering the
+              <span className="gradient-text"> Future with Smart </span>
+              Tech.
             </h1>
             <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
               We craft world-class digital experiences, innovative tech solutions, and sustainable energy systems that propel businesses forward.

@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import CloudDivider from "@/components/CloudDivider";
 import AnimatedSection from "@/components/AnimatedSection";
 import Link from "next/link";
+// import ThreeBackground from "./ThreeBackground";
 
 const values = [
   { icon: Lightbulb, title: "Innovation First", desc: "We push boundaries and embrace emerging technologies to deliver cutting-edge solutions." },
@@ -35,7 +36,7 @@ const About = () => (
 
     <CloudDivider />
 
-    <section className="section-padding bg-card/30">
+    {/* <section className="section-padding bg-slate-700/10">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <AnimatedSection>
@@ -63,6 +64,54 @@ const About = () => (
               </div>
             </div>
           </AnimatedSection>
+        </div>
+      </div>
+    </section> */}
+    {/* <ThreeBackground /> */}
+
+    <section className="relative section-padding bg-slate-700/10 overflow-hidden">
+
+      <div className="container mx-auto relative z-10">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          
+          <AnimatedSection>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
+              Our Story
+            </h2>
+
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p>
+                Founded with the vision of bridging the gap between innovative technology and real-world impact, NexaTech has grown into a trusted partner for businesses worldwide.
+              </p>
+              <p>
+                Our diverse portfolio — spanning web development, mobile apps, AI-driven search, renewable energy, and creative media — reflects our belief that great technology knows no boundaries.
+              </p>
+              <p>
+                Today, we serve clients across industries, from startups to enterprises, helping them navigate digital transformation with confidence and clarity.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection delay={0.2}>
+            <div className="glass rounded-3xl p-10 glow-accent backdrop-blur-xl bg-white/5">
+              <div className="space-y-6">
+                {[
+                  { num: "2010", label: "Founded" },
+                  { num: "200+", label: "Projects Completed" },
+                  { num: "50+", label: "Team Members" },
+                  { num: "15+", label: "Countries Served" },
+                ].map((s) => (
+                  <div key={s.label} className="flex items-center gap-4">
+                    <span className="text-3xl font-heading font-bold gradient-text w-24">
+                      {s.num}
+                    </span>
+                    <span className="text-muted-foreground">{s.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </AnimatedSection>
+
         </div>
       </div>
     </section>
